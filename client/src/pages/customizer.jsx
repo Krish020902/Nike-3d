@@ -8,6 +8,7 @@ import { download } from "../assets";
 import { downloadCanvasToImage, reader } from "../config/helpers";
 import { EditorTabs, FilterTabs, DecalTypes } from "../config/constants";
 import { fadeAnimation, slideAnimation } from "../config/motion";
+
 import {
   AIPicker,
   ColorPicker,
@@ -29,6 +30,7 @@ const Customizer = () => {
     logoShirt: true,
     stylishShirt: false,
   });
+  // const [isOpen, setIsOpen] = useState(true);
 
   // show tab content depending on the activeTab
   const generateTabContent = () => {
